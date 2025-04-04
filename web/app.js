@@ -2271,6 +2271,8 @@ if (typeof PDFJSDev === "undefined" || PDFJSDev.test("GENERIC")) {
     "null",
     "http://mozilla.github.io",
     "https://mozilla.github.io",
+    "https://dev-sayso-media.s3.amazonaws.com",
+    "https://prd-sayso-media.s3.amazonaws.com"
   ]);
   // eslint-disable-next-line no-var
   var validateFileURL = function (file) {
